@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50117EF1869F6B4002FD713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EE1869F6B4002FD713 /* Foundation.framework */; };
+		D50117F41869F6B4002FD713 /* GTAlgorithms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D50117F31869F6B4002FD713 /* GTAlgorithms.h */; };
+		D50117F61869F6B4002FD713 /* GTAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = D50117F51869F6B4002FD713 /* GTAlgorithms.m */; };
+		D50117FD1869F6B4002FD713 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117FC1869F6B4002FD713 /* XCTest.framework */; };
+		D50117FE1869F6B4002FD713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EE1869F6B4002FD713 /* Foundation.framework */; };
+		D50118001869F6B4002FD713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117FF1869F6B4002FD713 /* UIKit.framework */; };
+		D50118031869F6B5002FD713 /* libGTAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */; };
+		D50118091869F6B5002FD713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50118071869F6B5002FD713 /* InfoPlist.strings */; };
+		D501180B1869F6B5002FD713 /* GTAlgorithmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D501180A1869F6B5002FD713 /* GTAlgorithmsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50118011869F6B5002FD713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50117E31869F6B4002FD713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50117EA1869F6B4002FD713;
+			remoteInfo = GTAlgorithms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D50117E91869F6B4002FD713 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D50117F41869F6B4002FD713 /* GTAlgorithms.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGTAlgorithms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50117EE1869F6B4002FD713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D50117F21869F6B4002FD713 /* GTAlgorithms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTAlgorithms-Prefix.pch"; sourceTree = "<group>"; };
+		D50117F31869F6B4002FD713 /* GTAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAlgorithms.h; sourceTree = "<group>"; };
+		D50117F51869F6B4002FD713 /* GTAlgorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAlgorithms.m; sourceTree = "<group>"; };
+		D50117FB1869F6B4002FD713 /* GTAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50117FC1869F6B4002FD713 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D50117FF1869F6B4002FD713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D50118061869F6B5002FD713 /* GTAlgorithmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTAlgorithmsTests-Info.plist"; sourceTree = "<group>"; };
+		D50118081869F6B5002FD713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D501180A1869F6B5002FD713 /* GTAlgorithmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAlgorithmsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50117E81869F6B4002FD713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50117EF1869F6B4002FD713 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50117F81869F6B4002FD713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50118031869F6B5002FD713 /* libGTAlgorithms.a in Frameworks */,
+				D50117FD1869F6B4002FD713 /* XCTest.framework in Frameworks */,
+				D50118001869F6B4002FD713 /* UIKit.framework in Frameworks */,
+				D50117FE1869F6B4002FD713 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50117E21869F6B4002FD713 = {
+			isa = PBXGroup;
+			children = (
+				D50117F01869F6B4002FD713 /* GTAlgorithms */,
+				D50118041869F6B5002FD713 /* GTAlgorithmsTests */,
+				D50117ED1869F6B4002FD713 /* Frameworks */,
+				D50117EC1869F6B4002FD713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50117EC1869F6B4002FD713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */,
+				D50117FB1869F6B4002FD713 /* GTAlgorithmsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50117ED1869F6B4002FD713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50117EE1869F6B4002FD713 /* Foundation.framework */,
+				D50117FC1869F6B4002FD713 /* XCTest.framework */,
+				D50117FF1869F6B4002FD713 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50117F01869F6B4002FD713 /* GTAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				D50117F31869F6B4002FD713 /* GTAlgorithms.h */,
+				D50117F51869F6B4002FD713 /* GTAlgorithms.m */,
+				D50117F11869F6B4002FD713 /* Supporting Files */,
+			);
+			path = GTAlgorithms;
+			sourceTree = "<group>";
+		};
+		D50117F11869F6B4002FD713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50117F21869F6B4002FD713 /* GTAlgorithms-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D50118041869F6B5002FD713 /* GTAlgorithmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D501180A1869F6B5002FD713 /* GTAlgorithmsTests.m */,
+				D50118051869F6B5002FD713 /* Supporting Files */,
+			);
+			path = GTAlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		D50118051869F6B5002FD713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50118061869F6B5002FD713 /* GTAlgorithmsTests-Info.plist */,
+				D50118071869F6B5002FD713 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50117EA1869F6B4002FD713 /* GTAlgorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D501180E1869F6B5002FD713 /* Build configuration list for PBXNativeTarget "GTAlgorithms" */;
+			buildPhases = (
+				D50117E71869F6B4002FD713 /* Sources */,
+				D50117E81869F6B4002FD713 /* Frameworks */,
+				D50117E91869F6B4002FD713 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTAlgorithms;
+			productName = GTAlgorithms;
+			productReference = D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D50117FA1869F6B4002FD713 /* GTAlgorithmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50118111869F6B5002FD713 /* Build configuration list for PBXNativeTarget "GTAlgorithmsTests" */;
+			buildPhases = (
+				D50117F71869F6B4002FD713 /* Sources */,
+				D50117F81869F6B4002FD713 /* Frameworks */,
+				D50117F91869F6B4002FD713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50118021869F6B5002FD713 /* PBXTargetDependency */,
+			);
+			name = GTAlgorithmsTests;
+			productName = GTAlgorithmsTests;
+			productReference = D50117FB1869F6B4002FD713 /* GTAlgorithmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50117E31869F6B4002FD713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Robby Cohen";
+			};
+			buildConfigurationList = D50117E61869F6B4002FD713 /* Build configuration list for PBXProject "GTAlgorithms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D50117E21869F6B4002FD713;
+			productRefGroup = D50117EC1869F6B4002FD713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50117EA1869F6B4002FD713 /* GTAlgorithms */,
+				D50117FA1869F6B4002FD713 /* GTAlgorithmsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50117F91869F6B4002FD713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50118091869F6B5002FD713 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50117E71869F6B4002FD713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50117F61869F6B4002FD713 /* GTAlgorithms.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50117F71869F6B4002FD713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D501180B1869F6B5002FD713 /* GTAlgorithmsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50118021869F6B5002FD713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50117EA1869F6B4002FD713 /* GTAlgorithms */;
+			targetProxy = D50118011869F6B5002FD713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50118071869F6B5002FD713 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50118081869F6B5002FD713 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D501180C1869F6B5002FD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D501180D1869F6B5002FD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D501180F1869F6B5002FD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GTAlgorithms.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTAlgorithms/GTAlgorithms-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D50118101869F6B5002FD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GTAlgorithms.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTAlgorithms/GTAlgorithms-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D50118121869F6B5002FD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTAlgorithms/GTAlgorithms-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GTAlgorithmsTests/GTAlgorithmsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D50118131869F6B5002FD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTAlgorithms/GTAlgorithms-Prefix.pch";
+				INFOPLIST_FILE = "GTAlgorithmsTests/GTAlgorithmsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50117E61869F6B4002FD713 /* Build configuration list for PBXProject "GTAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D501180C1869F6B5002FD713 /* Debug */,
+				D501180D1869F6B5002FD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D501180E1869F6B5002FD713 /* Build configuration list for PBXNativeTarget "GTAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D501180F1869F6B5002FD713 /* Debug */,
+				D50118101869F6B5002FD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50118111869F6B5002FD713 /* Build configuration list for PBXNativeTarget "GTAlgorithmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50118121869F6B5002FD713 /* Debug */,
+				D50118131869F6B5002FD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50117E31869F6B4002FD713 /* Project object */;
+}
