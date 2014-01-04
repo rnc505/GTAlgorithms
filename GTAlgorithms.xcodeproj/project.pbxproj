@@ -8,14 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D50117EF1869F6B4002FD713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EE1869F6B4002FD713 /* Foundation.framework */; };
-		D50117F41869F6B4002FD713 /* GTAlgorithms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D50117F31869F6B4002FD713 /* GTAlgorithms.h */; };
-		D50117F61869F6B4002FD713 /* GTAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = D50117F51869F6B4002FD713 /* GTAlgorithms.m */; };
 		D50117FD1869F6B4002FD713 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117FC1869F6B4002FD713 /* XCTest.framework */; };
 		D50117FE1869F6B4002FD713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EE1869F6B4002FD713 /* Foundation.framework */; };
 		D50118001869F6B4002FD713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117FF1869F6B4002FD713 /* UIKit.framework */; };
 		D50118031869F6B5002FD713 /* libGTAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */; };
 		D50118091869F6B5002FD713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50118071869F6B5002FD713 /* InfoPlist.strings */; };
 		D501180B1869F6B5002FD713 /* GTAlgorithmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D501180A1869F6B5002FD713 /* GTAlgorithmsTests.m */; };
+		D50118201869FF9E002FD713 /* GTBasicEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = D501181F1869FF9E002FD713 /* GTBasicEdge.m */; };
+		D50118231869FFDC002FD713 /* GTBasicNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D50118211869FFDC002FD713 /* GTBasicNode.m */; };
+		D5011827186A0441002FD713 /* GTAStarSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = D5011826186A0441002FD713 /* GTAStarSearch.m */; };
+		D501182D186A2628002FD713 /* GTAStarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D501182C186A2628002FD713 /* GTAStarNode.m */; };
+		D5011838186A71A8002FD713 /* GTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D5011837186A71A8002FD713 /* GTGraph.m */; };
+		D501183A186A74E0002FD713 /* GTAStarGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D5011839186A74E0002FD713 /* GTAStarGraph.m */; };
+		D501183D186BC382002FD713 /* GTPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D501183C186BC382002FD713 /* GTPath.m */; };
+		D5011895186BE9B0002FD713 /* GTAlgorithms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5011892186BE837002FD713 /* GTAlgorithms.h */; };
+		D5011896186BE9D0002FD713 /* GTAStarSearch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5011825186A0441002FD713 /* GTAStarSearch.h */; };
+		D5011897186BE9D0002FD713 /* GTAStarGraph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5011828186A2017002FD713 /* GTAStarGraph.h */; };
+		D5011898186BE9D0002FD713 /* GTAStarNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D501182B186A2628002FD713 /* GTAStarNode.h */; };
+		D501189A186BE9D0002FD713 /* GTPath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D501183B186BC382002FD713 /* GTPath.h */; };
+		D501189B186BE9D0002FD713 /* GTGraph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D50118141869F6E2002FD713 /* GTGraph.h */; };
+		D501189D186BE9D0002FD713 /* GTBasicEdge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D501181E1869FF9E002FD713 /* GTBasicEdge.h */; };
+		D501189E186BE9D0002FD713 /* GTBasicNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D50118221869FFDC002FD713 /* GTBasicNode.h */; };
+		D5516165186FDDE000E1E3A2 /* GTDataTypes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5F35067186FDD9E002B03E7 /* GTDataTypes.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				D50117F41869F6B4002FD713 /* GTAlgorithms.h in CopyFiles */,
+				D5516165186FDDE000E1E3A2 /* GTDataTypes.h in CopyFiles */,
+				D5011896186BE9D0002FD713 /* GTAStarSearch.h in CopyFiles */,
+				D5011897186BE9D0002FD713 /* GTAStarGraph.h in CopyFiles */,
+				D5011898186BE9D0002FD713 /* GTAStarNode.h in CopyFiles */,
+				D501189A186BE9D0002FD713 /* GTPath.h in CopyFiles */,
+				D501189B186BE9D0002FD713 /* GTGraph.h in CopyFiles */,
+				D501189D186BE9D0002FD713 /* GTBasicEdge.h in CopyFiles */,
+				D501189E186BE9D0002FD713 /* GTBasicNode.h in CopyFiles */,
+				D5011895186BE9B0002FD713 /* GTAlgorithms.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +67,29 @@
 		D50117EB1869F6B4002FD713 /* libGTAlgorithms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGTAlgorithms.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50117EE1869F6B4002FD713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D50117F21869F6B4002FD713 /* GTAlgorithms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTAlgorithms-Prefix.pch"; sourceTree = "<group>"; };
-		D50117F31869F6B4002FD713 /* GTAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAlgorithms.h; sourceTree = "<group>"; };
-		D50117F51869F6B4002FD713 /* GTAlgorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAlgorithms.m; sourceTree = "<group>"; };
 		D50117FB1869F6B4002FD713 /* GTAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50117FC1869F6B4002FD713 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D50117FF1869F6B4002FD713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D50118061869F6B5002FD713 /* GTAlgorithmsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTAlgorithmsTests-Info.plist"; sourceTree = "<group>"; };
 		D50118081869F6B5002FD713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D501180A1869F6B5002FD713 /* GTAlgorithmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAlgorithmsTests.m; sourceTree = "<group>"; };
+		D50118141869F6E2002FD713 /* GTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = GTGraph.h; path = Source/GTGraph.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D50118161869F848002FD713 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D501181E1869FF9E002FD713 /* GTBasicEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = GTBasicEdge.h; path = Source/GTBasicEdge.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D501181F1869FF9E002FD713 /* GTBasicEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = GTBasicEdge.m; path = Source/GTBasicEdge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D50118211869FFDC002FD713 /* GTBasicNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = GTBasicNode.m; path = Source/GTBasicNode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D50118221869FFDC002FD713 /* GTBasicNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = GTBasicNode.h; path = Source/GTBasicNode.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D5011825186A0441002FD713 /* GTAStarSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTAStarSearch.h; path = Source/GTAStarSearch.h; sourceTree = "<group>"; };
+		D5011826186A0441002FD713 /* GTAStarSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTAStarSearch.m; path = Source/GTAStarSearch.m; sourceTree = "<group>"; };
+		D5011828186A2017002FD713 /* GTAStarGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTAStarGraph.h; path = Source/GTAStarGraph.h; sourceTree = "<group>"; };
+		D501182B186A2628002FD713 /* GTAStarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = GTAStarNode.h; path = Source/GTAStarNode.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D501182C186A2628002FD713 /* GTAStarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTAStarNode.m; path = Source/GTAStarNode.m; sourceTree = "<group>"; };
+		D5011837186A71A8002FD713 /* GTGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = GTGraph.m; path = Source/GTGraph.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D5011839186A74E0002FD713 /* GTAStarGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTAStarGraph.m; path = Source/GTAStarGraph.m; sourceTree = "<group>"; };
+		D501183B186BC382002FD713 /* GTPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTPath.h; path = Source/GTPath.h; sourceTree = "<group>"; };
+		D501183C186BC382002FD713 /* GTPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = GTPath.m; path = Source/GTPath.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D5011892186BE837002FD713 /* GTAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTAlgorithms.h; path = Source/GTAlgorithms.h; sourceTree = "<group>"; };
+		D5F35067186FDD9E002B03E7 /* GTDataTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDataTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +137,7 @@
 		D50117ED1869F6B4002FD713 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D50118161869F848002FD713 /* CoreLocation.framework */,
 				D50117EE1869F6B4002FD713 /* Foundation.framework */,
 				D50117FC1869F6B4002FD713 /* XCTest.framework */,
 				D50117FF1869F6B4002FD713 /* UIKit.framework */,
@@ -110,9 +148,10 @@
 		D50117F01869F6B4002FD713 /* GTAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				D50117F31869F6B4002FD713 /* GTAlgorithms.h */,
-				D50117F51869F6B4002FD713 /* GTAlgorithms.m */,
+				D501182E186A2631002FD713 /* AStar */,
+				D5011824186A0225002FD713 /* Components */,
 				D50117F11869F6B4002FD713 /* Supporting Files */,
+				D5011892186BE837002FD713 /* GTAlgorithms.h */,
 			);
 			path = GTAlgorithms;
 			sourceTree = "<group>";
@@ -141,6 +180,51 @@
 				D50118071869F6B5002FD713 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5011824186A0225002FD713 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D501183F186BCD2E002FD713 /* Categories */,
+				D501183E186BC405002FD713 /* Outputs */,
+				D50118141869F6E2002FD713 /* GTGraph.h */,
+				D5011837186A71A8002FD713 /* GTGraph.m */,
+				D501181E1869FF9E002FD713 /* GTBasicEdge.h */,
+				D501181F1869FF9E002FD713 /* GTBasicEdge.m */,
+				D50118221869FFDC002FD713 /* GTBasicNode.h */,
+				D50118211869FFDC002FD713 /* GTBasicNode.m */,
+				D5F35067186FDD9E002B03E7 /* GTDataTypes.h */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		D501182E186A2631002FD713 /* AStar */ = {
+			isa = PBXGroup;
+			children = (
+				D5011825186A0441002FD713 /* GTAStarSearch.h */,
+				D5011826186A0441002FD713 /* GTAStarSearch.m */,
+				D5011828186A2017002FD713 /* GTAStarGraph.h */,
+				D5011839186A74E0002FD713 /* GTAStarGraph.m */,
+				D501182B186A2628002FD713 /* GTAStarNode.h */,
+				D501182C186A2628002FD713 /* GTAStarNode.m */,
+			);
+			name = AStar;
+			sourceTree = "<group>";
+		};
+		D501183E186BC405002FD713 /* Outputs */ = {
+			isa = PBXGroup;
+			children = (
+				D501183B186BC382002FD713 /* GTPath.h */,
+				D501183C186BC382002FD713 /* GTPath.m */,
+			);
+			name = Outputs;
+			sourceTree = "<group>";
+		};
+		D501183F186BCD2E002FD713 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50117F61869F6B4002FD713 /* GTAlgorithms.m in Sources */,
+				D501182D186A2628002FD713 /* GTAStarNode.m in Sources */,
+				D50118231869FFDC002FD713 /* GTBasicNode.m in Sources */,
+				D50118201869FF9E002FD713 /* GTBasicEdge.m in Sources */,
+				D501183D186BC382002FD713 /* GTPath.m in Sources */,
+				D5011838186A71A8002FD713 /* GTGraph.m in Sources */,
+				D5011827186A0441002FD713 /* GTAStarSearch.m in Sources */,
+				D501183A186A74E0002FD713 /* GTAStarGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -322,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,6 +499,7 @@
 				D50118101869F6B5002FD713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50118111869F6B5002FD713 /* Build configuration list for PBXNativeTarget "GTAlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +508,7 @@
 				D50118131869F6B5002FD713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
