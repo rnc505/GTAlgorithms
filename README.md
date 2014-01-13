@@ -2,7 +2,7 @@ GTAlgorithms
 ============ 
 ------------
 
-GTAlgorithms is an open-source Graph Travel Algorithm (hence GTAlgorithms) library for iOS. It was mainly implemented to be **"plug-and-play" ** and **extensible**.
+GTAlgorithms is an open-source Graph Travel Algorithm (hence GTAlgorithms) library for iOS. It was mainly implemented to be **plug-and-play ** and **extensible**.
 
 Installation
 -----------
