@@ -89,3 +89,4 @@ In order to run A* Star search, all you have to do is pass your graph, a start n
     +(GTPath*)performAStarSearchOnGraph:(GTGraph*)graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode;
 
 ## That's It! ##
+  [1]: http://en.wikipedia.org/wiki/A*
