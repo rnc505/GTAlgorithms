@@ -18,4 +18,6 @@
 
 +(void)performAStarSearchOnGraph:(GTGraph*)graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode completion:(void (^)(GTPath* shortestPath))completionBlock;
 
++(GTPath*)performAStarSearchOnGraph:(GTGraph*)graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode;
+
 @end

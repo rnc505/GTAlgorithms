@@ -38,11 +38,19 @@
 +(void)performAStarSearchOnGraph:(GTGraph*)graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode completion:(void (^)(GTPath*))completionBlock {
     GTAStarGraph *upgradedGraph = [GTAStarGraph createAStarGraphWithBaseGraph:graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode];
     
-    // The Nodes also need to be upgraded, but how do we do that without changing the underlying graph?
-    
     [GTAStarSearch helperPerformAStarSearchOnGraph:upgradedGraph completion:^(GTPath *retVal) {
         completionBlock(retVal);
     }];
+}
+
++(GTPath *)performAStarSearchOnGraph:(GTGraph *)graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode {
+    GTAStarGraph *upgradedGraph = [GTAStarGraph createAStarGraphWithBaseGraph:graph withStartNode:(id<GTNode>)startNode withEndNode:(id<GTNode>)endNode];
+    
+    __block GTPath* returnValue;
+    [GTAStarSearch helperPerformAStarSearchOnGraph:upgradedGraph completion:^(GTPath *retVal) {
+        returnValue = retVal;
+    }];
+    return returnValue;
 }
 
 +(void)helperPerformAStarSearchOnGraph:(GTAStarGraph*)graph completion:(void (^)(GTPath* retVal))completionBlock {
@@ -106,9 +114,9 @@
 -(GTPath*)generateSuccessfulPathOnGraph:(GTAStarGraph *)graph fromEndNode:(GTAStarNode *)endNode {
     id currentNode = endNode;
     GTPath* retVal = [GTPath blankPath];
-    [retVal addNode:currentNode];
+    [retVal addNode:[currentNode baseNode]];
     while([currentNode parent]) {
-        [retVal addNode:[currentNode parent]];
+        [retVal addNode:[[currentNode parent] baseNode]];
         [retVal addDirectedEdgeWithBeginningNode:[currentNode parent] endNode:currentNode length:[graph getEdgeLengthFromFirstNode:[currentNode parent] toSecondNode:currentNode]];
         currentNode = [currentNode parent];
     }

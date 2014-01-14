@@ -38,10 +38,10 @@
 }
 -(void)addDirectedEdgeWithBeginningNode:(id<GTNode>)_beginning endNode:(id<GTNode>)_end length:(GTDistance)_length {
     if(![_adjacencyList objectForKey:[_beginning getIdentifier]]) {
-        // TODO EXCEPTION
+        [NSException raise:@"Node not added to graph" format:@"The Beginning Node was not added to graph"];
     }
     if(![_adjacencyList objectForKey:[_end getIdentifier]]) {
-        // TODO EXCEPTION
+        [NSException raise:@"Node not added to graph" format:@"The Ending Node was not added to graph"];
     }
     [[_adjacencyList objectForKey:[_beginning getIdentifier]] addObject:_end];
     [_edgeWeights setObject:[NSNumber numberWithDouble:_length] forKey:[[_beginning getIdentifier] stringByAppendingString:[_end getIdentifier]]];
@@ -67,9 +67,7 @@
 
 -(GTDistance)getEdgeLengthFromFirstNode:(GTBasicNode *)_firstNode toSecondNode:(GTBasicNode *)_secondNode {
     if(![[_adjacencyList objectForKey:[_firstNode getIdentifier]] containsObject:_secondNode]) {
-        // TODO EXCEPTION
-        // OR
-        // return CLLocationDistanceMax;
+        [NSException raise:@"No edge exists between nodes" format:@"There does not exists an edge between these nodes"];
     }
     return [[_edgeWeights objectForKey:[[_firstNode getIdentifier] stringByAppendingString:[_secondNode getIdentifier]]] doubleValue];
 }

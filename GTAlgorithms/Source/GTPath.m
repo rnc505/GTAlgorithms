@@ -16,7 +16,7 @@
 }
 -(void)addNode:(id<GTNode>)_node {
     [super addNode:_node];
-    [_finalPath insertObject:_node atIndex:0];
+    [_finalPath insertObject:_node  atIndex:0];
 }
 
 +(id)blankPath {

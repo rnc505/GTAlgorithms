@@ -50,7 +50,6 @@
         NSLog(@"shortest path: %f",[shortestPath length]);
          NSLog(@"path: %@",[shortestPath finalPath]);
     }];
-    NSLog(@"");
     
 }
 

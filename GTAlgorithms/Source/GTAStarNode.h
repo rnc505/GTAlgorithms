@@ -11,13 +11,13 @@
 @interface GTAStarNode : GTBasicNode {
     GTDistance _gScore;
     GTDistance _fScore;
-    id<GTNode> _parent;
+    GTAStarNode *_parent;
     id<GTNode> _baseNode;
 }
 
 @property (nonatomic, assign) GTDistance gScore;
 @property (nonatomic, assign) GTDistance fScore;
-@property (nonatomic, retain) id<GTNode> parent;
+@property (nonatomic, retain) GTAStarNode *parent;
 @property (nonatomic, retain) id<GTNode> baseNode;
 
 +(GTAStarNode*)createAStarNodeFromBaseNode:(id<GTNode>)_baseNode;
